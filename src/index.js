@@ -1,10 +1,8 @@
-let TPAConfigs,alterTPAConfigs
-const doSomeThing = async () => {
-  await doBThing()
-}
-const doBThing = () => {
-  console.log(123)
-}
+import _ from 'lodash';
+import jQuery from 'jquery';
+import flatpickr from "flatpickr";
 
-TPAConfigs = {...TPAConfigs,...alterTPAConfigs}
-doSomeThing()
+console.log(_.VERSION)
+console.log(jQuery)
+console.log(flatpickr,789)
+_.noConflict()

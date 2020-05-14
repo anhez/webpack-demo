@@ -2,9 +2,10 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,10 @@
     "babel-loader": "^8.1.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.3",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15"
   }
 }
